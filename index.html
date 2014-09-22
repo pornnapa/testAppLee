@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--use ever page-->
+	<meta charset="utf-8"
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.3.min.css">
+	<link rel="stylesheet" href="css/stlye.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.mobile-1.4.3.min.js"></script>
+	<!--จบ use ever page-->
+</head>
+<body>
+	<div data-role="page" id="pageone">
+		<div data-role="panel" id="pushPanel" data-display="push"><br> 
+
+			<h2>ลี่เหล้าหงี</h2>
+			<p><ul data-role="listview"> 
+				<li data-icon="home"><a href="index.html" data-transition="fade">หน้าแรก</a></li>
+				<li data-icon="phone"><a href="about-us.html" data-transition="fade">เกี่ยวกับเรา</a></li>
+				<li data-icon="heart"><a href="recommend.html" data-transition="fade">อาหารแนะนำ</a></li>
+				<li data-icon="bars"><a href="room.html" data-transition="fade">จองโต๊ะ/สั่งอาหาร</a></li> 
+				<li data-icon="location"><a href="map.html" data-transition="fade">แผนที่</a></li>
+			</ul></p>
+		</div>
+		<div data-role="header" data-position="fixed">
+			<a href="#pushPanel" class="ui-btn ui-icon-bars ui-corner-all ui-btn-icon-left">menu</a>
+			<h1>ภัตตาคาร หลี เหล่า หงี</h1>		
+		</div>
+
+		<div data-role="main" class="ui-content">	
+			<center><img class="imglogokohlanta" src="images/logokohlanta.jpg"></center>
+			<form method="get" action="">
+				<div class="ui-field-contain">
+					<center><p>เข้าสู่ระบบ/<a href="register.html" data-transition="fade">สมัครสมาชิก</a></p></center>
+					<label for="username">username :</label>
+					<input type="text" name="text" id="username" value="" placeholder="userame">
+				</div>
+				<div class="ui-field-contain">
+					<label for="password">password :</label>
+					<input type="text" name="text" id="passwprd" value="" placeholder="password">
+				</div>
+				<center><input type="submit" data-inline="true" value="เข้าสู่ระบบ"></center>
+			</form>
+		</div>
+
+		<div data-role="footer" data-position="fixed">
+			<h1>COPYRIGHT © 2014 KOH LAN TA. ALL RIGHTS RESERVED.</h1>
+		</div>
+
+	</div>
+
+</body>
+</html>
+
+
